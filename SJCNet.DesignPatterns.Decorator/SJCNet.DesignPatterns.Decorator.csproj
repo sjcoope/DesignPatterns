@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BA685722-2A18-4C30-9C26-BA79E0E2748F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{8BD80C24-73EF-4F65-9C81-2C81545D98ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SJCNet.DesignPatterns.Output</RootNamespace>
-    <AssemblyName>SJCNet.DesignPatterns.Output</AssemblyName>
+    <RootNamespace>SJCNet.DesignPatterns.Decorator</RootNamespace>
+    <AssemblyName>SJCNet.DesignPatterns.Decorator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,26 +40,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Decorator\Pizzas\DeepPanPizza.cs" />
+    <Compile Include="Decorator\Pizzas\Pizza.cs" />
+    <Compile Include="Decorator\Pizzas\StoneBakedPizza.cs" />
+    <Compile Include="Decorator\Pizzas\StuffedCrustPizza.cs" />
+    <Compile Include="Decorator\Toppings\CheeseTopping.cs" />
+    <Compile Include="Decorator\Toppings\ChillieTopping.cs" />
+    <Compile Include="Decorator\Toppings\HamTopping.cs" />
+    <Compile Include="Decorator\Toppings\PepperoniTopping.cs" />
+    <Compile Include="Decorator\Toppings\ToppingDecorator.cs" />
+    <Compile Include="Example.cs" />
+    <Compile Include="Inheritance\Toppings\ChillieTopping.cs" />
+    <Compile Include="Inheritance\Toppings\HamTopping.cs" />
+    <Compile Include="Inheritance\Toppings\PepperoniTopping.cs" />
+    <Compile Include="Inheritance\Toppings\CheeseTopping.cs" />
+    <Compile Include="Inheritance\Pizzas\DeepPanPizza.cs" />
+    <Compile Include="Inheritance\Toppings\ITopping.cs" />
+    <Compile Include="Inheritance\Pizzas\Pizza.cs" />
+    <Compile Include="Inheritance\Pizzas\StoneBakedPizza.cs" />
+    <Compile Include="Inheritance\Pizzas\StuffedCrustPizza.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.CompositionOverInheritance\SJCNet.DesignPatterns.CompositionOverInheritance.csproj">
-      <Project>{59dc2580-5371-4447-b687-d2aa1de675e8}</Project>
-      <Name>SJCNet.DesignPatterns.CompositionOverInheritance</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.Decorator\SJCNet.DesignPatterns.Decorator.csproj">
-      <Project>{8bd80c24-73ef-4f65-9c81-2c81545d98ed}</Project>
-      <Name>SJCNet.DesignPatterns.Decorator</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj">
-      <Project>{cbe02eb0-7dc1-4ff5-bfe1-ef495ce0c655}</Project>
+      <Project>{CBE02EB0-7DC1-4FF5-BFE1-EF495CE0C655}</Project>
       <Name>SJCNet.DesignPatterns.Shared</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -10,8 +10,12 @@ namespace SJCNet.DesignPatterns.Output
             Logger.WriteStart("Started");
 
             // Example: Composition over inheritance
-            var compositionOverInheritanceExample = new CompositionOverInheritance.Example();
-            compositionOverInheritanceExample.Execute();
+            //var compositionOverInheritanceExample = new CompositionOverInheritance.Example();
+            //compositionOverInheritanceExample.Execute();
+
+            // Example: Decorator Pattern
+            var decoratorPattern = new Decorator.Example();
+            decoratorPattern.Execute();
 
             Logger.WriteEnd("Ended");
             ReadLine();
