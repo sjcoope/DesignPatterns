@@ -7,7 +7,7 @@ namespace SJCNet.DesignPatterns.Observer.ObserverAttempt
     {
         public void Update(object sender)
         {
-            var newsStation = (sender as NewsStation);
+            var newsStation = (sender as INewsStationBase);
             if (newsStation == null) throw new ArgumentException("sender is not of type NewsStation");
 
             var headline = newsStation.GetFinanceHeadline();

@@ -50,7 +50,8 @@
     <Compile Include="BasicAttempt\NewsStation.cs" />
     <Compile Include="BasicAttempt\SportsReporter.cs" />
     <Compile Include="Example.cs" />
-    <Compile Include="NewsStation.cs" />
+    <Compile Include="INewsStationBase.cs" />
+    <Compile Include="NewsStationBase.cs" />
     <Compile Include="ObserverAttempt\CurrentAffairsReporter.cs" />
     <Compile Include="ObserverAttempt\FinanceReporter.cs" />
     <Compile Include="ObserverAttempt\IObserver.cs" />

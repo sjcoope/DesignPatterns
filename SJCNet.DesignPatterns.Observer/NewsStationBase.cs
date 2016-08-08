@@ -3,7 +3,7 @@ using System.Timers;
 
 namespace SJCNet.DesignPatterns.Observer
 {
-    public abstract class NewsStationBase
+    public abstract class NewsStationBase : INewsStationBase
     {
 
         private const int _articlesToGenerateInTest = 5;
