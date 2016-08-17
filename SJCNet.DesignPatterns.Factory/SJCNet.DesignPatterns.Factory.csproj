@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BA685722-2A18-4C30-9C26-BA79E0E2748F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{5905DA6D-16C1-4DDE-9C78-552E59055E7C}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SJCNet.DesignPatterns.Output</RootNamespace>
-    <AssemblyName>SJCNet.DesignPatterns.Output</AssemblyName>
+    <RootNamespace>SJCNet.DesignPatterns.Factory</RootNamespace>
+    <AssemblyName>SJCNet.DesignPatterns.Factory</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,29 +40,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Example.cs" />
+    <Compile Include="FactoryMethod\ItalianCarShowroom.cs" />
+    <Compile Include="FactoryMethod\UkCarShowroom.cs" />
+    <Compile Include="FactoryMethod\CarShowroom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\Car.cs" />
+    <Compile Include="Shared\CarTypes.cs" />
+    <Compile Include="Shared\Colours.cs" />
+    <Compile Include="Shared\Gearboxes.cs" />
+    <Compile Include="Shared\ICar.cs" />
+    <Compile Include="Shared\HatchbackCar.cs" />
+    <Compile Include="SimpleFactory\UkCarFactory.cs" />
+    <Compile Include="SimpleFactory\CarShowroom.cs" />
+    <Compile Include="SimpleFactory\ItalianCarFactory.cs" />
+    <Compile Include="Shared\SaloonCar.cs" />
+    <Compile Include="SimpleFactory\ICarFactory.cs" />
+    <Compile Include="Shared\MPVCar.cs" />
+    <Compile Include="Shared\CoupeCar.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.CompositionOverInheritance\SJCNet.DesignPatterns.CompositionOverInheritance.csproj">
-      <Project>{59dc2580-5371-4447-b687-d2aa1de675e8}</Project>
-      <Name>SJCNet.DesignPatterns.CompositionOverInheritance</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.Factory\SJCNet.DesignPatterns.Factory.csproj">
-      <Project>{5905da6d-16c1-4dde-9c78-552e59055e7c}</Project>
-      <Name>SJCNet.DesignPatterns.Factory</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.Observer\SJCNet.DesignPatterns.Observer.csproj">
-      <Project>{fba2123e-a1c9-4327-aa17-33f35481964a}</Project>
-      <Name>SJCNet.DesignPatterns.Observer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj">
       <Project>{cbe02eb0-7dc1-4ff5-bfe1-ef495ce0c655}</Project>
       <Name>SJCNet.DesignPatterns.Shared</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AbstractFactory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
