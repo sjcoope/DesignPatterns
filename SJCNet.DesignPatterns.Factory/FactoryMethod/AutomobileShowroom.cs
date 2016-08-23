@@ -3,7 +3,7 @@ using SJCNet.DesignPatterns.Shared.Utility;
 
 namespace SJCNet.DesignPatterns.Factory.FactoryMethod
 {
-    public abstract class CarShowroom
+    public abstract class AutomobileShowroom
     {
         public ICar OrderCar(CarTypes type)
         {
@@ -11,10 +11,11 @@ namespace SJCNet.DesignPatterns.Factory.FactoryMethod
 
             var car = CreateCar(type);
 
-            car.AddDoors();
-            car.AddColour();
-            car.AddEngine();
-            car.AddSeats();
+            car.PerformValet();
+            car.PerformService();
+            car.AddFuel();
+
+            Logger.Write($"Order completed with car: {car.ToString()}");
 
             return car;
         }

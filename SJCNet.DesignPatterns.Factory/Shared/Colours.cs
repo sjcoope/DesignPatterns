@@ -6,6 +6,7 @@
         Blue,
         Black,
         Red,
-        Yellow
+        Yellow,
+        White
     }
 }

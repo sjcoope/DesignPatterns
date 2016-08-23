@@ -1,10 +1,10 @@
 ﻿namespace SJCNet.DesignPatterns.Factory.Shared
 {
-    public enum CarTypes
+    public enum VanTypes
     {
         None,
-        Hatchback,
-        Saloon,
-        Mpv
+        Box,
+        Flatbed,
+        Luton
     }
 }

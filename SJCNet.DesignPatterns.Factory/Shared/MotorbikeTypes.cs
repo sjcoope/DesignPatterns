@@ -1,10 +1,10 @@
 ﻿namespace SJCNet.DesignPatterns.Factory.Shared
 {
-    public enum CarTypes
+    public enum MotorbikeTypes
     {
         None,
-        Hatchback,
-        Saloon,
-        Mpv
+        Scooter,
+        Chopper,
+        Tourer
     }
 }

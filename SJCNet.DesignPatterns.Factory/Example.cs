@@ -9,29 +9,50 @@ namespace SJCNet.DesignPatterns.Factory
         public void Execute()
         {
             Logger.WriteSubHeader("Simple Factory Implementation");
-
-            var ukCarFactory = new SimpleFactory.UkCarFactory();
-            var carShowroom1 = new SimpleFactory.CarShowroom(ukCarFactory);
-            var ukCar1 = carShowroom1.OrderCar(CarTypes.Coupe);
-            Logger.Write($"Car Ordered: {ukCar1.ToString()}");
-            Logger.AddLineBreak();
-
-            var italianCarFactory = new SimpleFactory.ItalianCarFactory();
-            var carShowroom2 = new SimpleFactory.CarShowroom(italianCarFactory);
-            var italianCar1 = carShowroom2.OrderCar(CarTypes.Hatchback);
-            Logger.Write($"Car Ordered: {italianCar1.ToString()}");
-            Logger.AddLineBreak();
-
+            ExecuteSimpleFactoryExample();
+            
             Logger.WriteSubHeader("Factory Method Implementation");
+            ExecuteFactoryMethodExample();
 
-            var ukCarShowroom = new FactoryMethod.UkCarShowroom();
-            var ukCar2 = ukCarShowroom.OrderCar(CarTypes.Saloon);
-            Logger.Write($"Car Ordered: {ukCar2.ToString()}");
+            Logger.WriteSubHeader("Abstract Factory Implementation");
+            ExecuteAbstractFactoryExample();
+        }
+
+        private void ExecuteAbstractFactoryExample()
+        {
+            var ukAutomobileFactory = new AbstractFactory.UkAutomobileFactory();
+            var ukAutomobileShowroom = new AbstractFactory.AutomobileShowroom(ukAutomobileFactory);
+            var ukCar = ukAutomobileShowroom.OrderCar(CarTypes.Hatchback);
             Logger.AddLineBreak();
 
-            var italianCarShowroom = new FactoryMethod.ItalianCarShowroom();
-            var italianCar2 = italianCarShowroom.OrderCar(CarTypes.MPV);
-            Logger.Write($"Car Ordered: {italianCar2.ToString()}");
+            var ukMotorbike = ukAutomobileShowroom.OrderMotorbike(MotorbikeTypes.Chopper);
+            Logger.AddLineBreak();
+
+            var italianAutomobileFactory = new AbstractFactory.ItalianAutomobileFactory();
+            var italianAutomobileShowroom = new AbstractFactory.AutomobileShowroom(italianAutomobileFactory);
+            var italianCar = italianAutomobileShowroom.OrderCar(CarTypes.Saloon);
+            Logger.AddLineBreak();
+
+            var italianMotorboke = italianAutomobileShowroom.OrderMotorbike(MotorbikeTypes.Scooter);
+            Logger.AddLineBreak();
+        }
+
+        private void ExecuteFactoryMethodExample()
+        {
+            var ukAutomobileShowroom = new FactoryMethod.UkAutomobileShowroom();
+            var ukCar = ukAutomobileShowroom.OrderCar(CarTypes.Saloon);
+            Logger.AddLineBreak();
+
+            var italianAutomobileShowroom = new FactoryMethod.ItalianAutomobileShowroom();
+            var italianCar = italianAutomobileShowroom.OrderCar(CarTypes.Mpv);
+            Logger.AddLineBreak();
+        }
+
+        private void ExecuteSimpleFactoryExample()
+        {
+            var simpleFactory = new SimpleFactory.AutomobileFactory();
+            var automobileShowroom = new SimpleFactory.AutomobileShowroom(simpleFactory);
+            var car = automobileShowroom.OrderCar(CarTypes.Mpv);
             Logger.AddLineBreak();
         }
     }

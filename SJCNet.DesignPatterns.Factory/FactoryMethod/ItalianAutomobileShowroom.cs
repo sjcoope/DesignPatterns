@@ -2,25 +2,23 @@
 
 namespace SJCNet.DesignPatterns.Factory.FactoryMethod
 {
-    public class ItalianCarShowroom : CarShowroom
+    public class ItalianAutomobileShowroom : AutomobileShowroom
     {
         protected override ICar CreateCar(CarTypes type)
         {
-            Car car = null;
+            Car car;
 
+            // Italians like red cars right?
             switch (type)
             {
                 case CarTypes.Saloon:
-                    car = new SaloonCar();
+                    car = new Car(CarTypes.Saloon, 2100, Colours.Red, 5, 5);
                     break;
                 case CarTypes.Hatchback:
-                    car = new HatchbackCar();
+                    car = new Car(CarTypes.Hatchback, 2300, Colours.Red, 3, 4);
                     break;
-                case CarTypes.MPV:
-                    car = new MPVCar();
-                    break;
-                default: // Coupe
-                    car = new CoupeCar();
+                default:
+                    car = new Car(CarTypes.Mpv, 3000, Colours.Red, 5, 8);
                     break;
             }
 

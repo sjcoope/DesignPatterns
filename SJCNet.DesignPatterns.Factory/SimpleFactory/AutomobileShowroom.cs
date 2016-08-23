@@ -3,11 +3,11 @@ using SJCNet.DesignPatterns.Shared.Utility;
 
 namespace SJCNet.DesignPatterns.Factory.SimpleFactory
 {
-    public class CarShowroom
+    public class AutomobileShowroom
     {
-        ICarFactory _factory;
+        readonly AutomobileFactory _factory;
 
-        public CarShowroom(ICarFactory factory)
+        public AutomobileShowroom(AutomobileFactory factory)
         {
             _factory = factory;
         }
@@ -18,10 +18,11 @@ namespace SJCNet.DesignPatterns.Factory.SimpleFactory
 
             var car =  _factory.CreateCar(type);
 
-            car.AddColour();
-            car.AddDoors();
-            car.AddEngine();
-            car.AddSeats();
+            car.PerformService();
+            car.PerformValet();
+            car.AddFuel();
+
+            Logger.Write($"Order completed with car: {car.ToString()}");
 
             return car;
         }
