@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BA685722-2A18-4C30-9C26-BA79E0E2748F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{5905DA6D-16C1-4DDE-9C78-552E59055E7C}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SJCNet.DesignPatterns.Output</RootNamespace>
-    <AssemblyName>SJCNet.DesignPatterns.Output</AssemblyName>
+    <RootNamespace>SJCNet.DesignPatterns.Factory</RootNamespace>
+    <AssemblyName>SJCNet.DesignPatterns.Factory</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,30 +40,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AbstractFactory\AutomobileShowroom.cs" />
+    <Compile Include="AbstractFactory\ItalianAutomobileFactory.cs" />
+    <Compile Include="AbstractFactory\UkAutomobileFactory.cs" />
+    <Compile Include="Example.cs" />
+    <Compile Include="AbstractFactory\IAutomobileFactory.cs" />
+    <Compile Include="FactoryMethod\ItalianAutomobileShowroom.cs" />
+    <Compile Include="FactoryMethod\UkAutomobileShowroom.cs" />
+    <Compile Include="FactoryMethod\AutomobileShowroom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\Automobile.cs" />
+    <Compile Include="Shared\Car.cs" />
+    <Compile Include="Shared\IAutomobile.cs" />
+    <Compile Include="Shared\VanTypes.cs" />
+    <Compile Include="Shared\MotorbikeTypes.cs" />
+    <Compile Include="Shared\CarTypes.cs" />
+    <Compile Include="Shared\Colours.cs" />
+    <Compile Include="Shared\Gearboxes.cs" />
+    <Compile Include="Shared\ICar.cs" />
+    <Compile Include="Shared\IMotorbike.cs" />
+    <Compile Include="Shared\IVan.cs" />
+    <Compile Include="Shared\Motorbike.cs" />
+    <Compile Include="Shared\Van.cs" />
+    <Compile Include="SimpleFactory\AutomobileFactory.cs" />
+    <Compile Include="SimpleFactory\AutomobileShowroom.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.CompositionOverInheritance\SJCNet.DesignPatterns.CompositionOverInheritance.csproj">
-      <Project>{59dc2580-5371-4447-b687-d2aa1de675e8}</Project>
-      <Name>SJCNet.DesignPatterns.CompositionOverInheritance</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.Factory\SJCNet.DesignPatterns.Factory.csproj">
-      <Project>{5905da6d-16c1-4dde-9c78-552e59055e7c}</Project>
-      <Name>SJCNet.DesignPatterns.Factory</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.Observer\SJCNet.DesignPatterns.Observer.csproj">
-      <Project>{fba2123e-a1c9-4327-aa17-33f35481964a}</Project>
-      <Name>SJCNet.DesignPatterns.Observer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj">
       <Project>{cbe02eb0-7dc1-4ff5-bfe1-ef495ce0c655}</Project>
       <Name>SJCNet.DesignPatterns.Shared</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
