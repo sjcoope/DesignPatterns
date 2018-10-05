@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SJCNet.DesignPatterns.CompositionOverInheritance\SJCNet.DesignPatterns.CompositionOverInheritance.csproj" />
+    <ProjectReference Include="..\SJCNet.DesignPatterns.Factory\SJCNet.DesignPatterns.Factory.csproj" />
     <ProjectReference Include="..\SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj" />
   </ItemGroup>
 

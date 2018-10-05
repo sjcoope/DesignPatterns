@@ -10,16 +10,16 @@ namespace SJCNet.DesignPatterns.Output
             Logger.WriteStart("Started");
 
             // Example: Composition over inheritance
-            var compositionOverInheritanceExample = new CompositionOverInheritance.Example();
-            compositionOverInheritanceExample.Execute();
+            //var compositionOverInheritanceExample = new CompositionOverInheritance.Example();
+            //compositionOverInheritanceExample.Execute();
 
             // Example: Observer Pattern
             //var observerPattern = new Observer.Example();
             //observerPattern.Execute();
 
             // Example: Factory Pattern
-            //var factoryPattern = new Factory.Example();
-            //factoryPattern.Execute();
+            var factoryPattern = new Factory.Example();
+            factoryPattern.Execute();
 
             Logger.WriteEnd("Ended");
             ReadLine();
