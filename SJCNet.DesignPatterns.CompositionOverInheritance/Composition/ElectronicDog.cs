@@ -1,5 +1,5 @@
 ﻿using SJCNet.DesignPatterns.CompositionOverInheritance.Composition.Behaviours;
-using SJCNet.DesignPatterns.Shared.Utility;
+using SJCNet.DesignPatterns.Shared.Utility.Old;
 
 namespace SJCNet.DesignPatterns.CompositionOverInheritance.Composition
 {

@@ -1,4 +1,4 @@
-﻿namespace SJCNet.DesignPatterns.Shared.Contracts
+﻿namespace SJCNet.DesignPatterns.Shared.Contracts.Old
 {
     public interface IExample
     {

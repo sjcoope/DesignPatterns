@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Console;
 
-namespace SJCNet.DesignPatterns.Shared.Utility
+namespace SJCNet.DesignPatterns.Shared.Utility.Old
 {
     public static class Logger
     {

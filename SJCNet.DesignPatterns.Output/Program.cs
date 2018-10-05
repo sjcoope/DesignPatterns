@@ -1,5 +1,4 @@
-﻿using SJCNet.DesignPatterns.Shared.Utility;
-using static System.Console;
+﻿using System;
 
 namespace SJCNet.DesignPatterns.Output
 {
@@ -7,22 +6,7 @@ namespace SJCNet.DesignPatterns.Output
     {
         static void Main(string[] args)
         {
-            Logger.WriteStart("Started");
-
-            // Example: Composition over inheritance
-            //var compositionOverInheritanceExample = new CompositionOverInheritance.Example();
-            //compositionOverInheritanceExample.Execute();
-
-            // Example: Observer Pattern
-            //var observerPattern = new Observer.Example();
-            //observerPattern.Execute();
-
-            // Example: Factory Pattern
-            var factoryPattern = new Factory.Example();
-            factoryPattern.Execute();
-
-            Logger.WriteEnd("Ended");
-            ReadLine();
+            Console.WriteLine("Hello World!");
         }
     }
 }

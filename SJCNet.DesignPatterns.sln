@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Output", "SJCNet.DesignPatterns.Output\SJCNet.DesignPatterns.Output.csproj", "{BA685722-2A18-4C30-9C26-BA79E0E2748F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Output.OLD", "SJCNet.DesignPatterns.Output.OLD\SJCNet.DesignPatterns.Output.OLD.csproj", "{BA685722-2A18-4C30-9C26-BA79E0E2748F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.CompositionOverInheritance", "SJCNet.DesignPatterns.CompositionOverInheritance\SJCNet.DesignPatterns.CompositionOverInheritance.csproj", "{59DC2580-5371-4447-B687-D2AA1DE675E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Shared", "SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj", "{CBE02EB0-7DC1-4FF5-BFE1-EF495CE0C655}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Shared.OLD", "SJCNet.DesignPatterns.Shared.OLD\SJCNet.DesignPatterns.Shared.OLD.csproj", "{CBE02EB0-7DC1-4FF5-BFE1-EF495CE0C655}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Observer", "SJCNet.DesignPatterns.Observer\SJCNet.DesignPatterns.Observer.csproj", "{FBA2123E-A1C9-4327-AA17-33F35481964A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Factory", "SJCNet.DesignPatterns.Factory\SJCNet.DesignPatterns.Factory.csproj", "{5905DA6D-16C1-4DDE-9C78-552E59055E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Output", "SJCNet.DesignPatterns.Output\SJCNet.DesignPatterns.Output.csproj", "{782C37BA-FAE7-4BA2-B61E-F68961071ED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +41,15 @@ Global
 		{5905DA6D-16C1-4DDE-9C78-552E59055E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5905DA6D-16C1-4DDE-9C78-552E59055E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5905DA6D-16C1-4DDE-9C78-552E59055E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782C37BA-FAE7-4BA2-B61E-F68961071ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782C37BA-FAE7-4BA2-B61E-F68961071ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782C37BA-FAE7-4BA2-B61E-F68961071ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782C37BA-FAE7-4BA2-B61E-F68961071ED8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38D01A8A-DC26-4081-A1C9-1A4C0D03C36A}
 	EndGlobalSection
 EndGlobal

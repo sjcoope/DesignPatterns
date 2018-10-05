@@ -1,4 +1,4 @@
-﻿using SJCNet.DesignPatterns.Shared.Utility;
+﻿using SJCNet.DesignPatterns.Shared.Utility.Old;
 
 namespace SJCNet.DesignPatterns.CompositionOverInheritance.Inheritance
 {

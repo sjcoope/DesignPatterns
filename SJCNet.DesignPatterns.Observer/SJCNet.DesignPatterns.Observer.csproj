@@ -62,15 +62,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj">
-      <Project>{cbe02eb0-7dc1-4ff5-bfe1-ef495ce0c655}</Project>
-      <Name>SJCNet.DesignPatterns.Shared</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SJCNet.DesignPatterns.Shared.OLD\SJCNet.DesignPatterns.Shared.OLD.csproj">
+      <Project>{cbe02eb0-7dc1-4ff5-bfe1-ef495ce0c655}</Project>
+      <Name>SJCNet.DesignPatterns.Shared.OLD</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

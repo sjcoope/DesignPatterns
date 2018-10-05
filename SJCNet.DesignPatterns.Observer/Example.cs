@@ -1,4 +1,4 @@
-﻿using SJCNet.DesignPatterns.Shared.Contracts;
+﻿using SJCNet.DesignPatterns.Shared.Contracts.Old;
 using static System.Console;
 
 namespace SJCNet.DesignPatterns.Observer

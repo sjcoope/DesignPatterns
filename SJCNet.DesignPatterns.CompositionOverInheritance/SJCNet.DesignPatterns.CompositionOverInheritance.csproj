@@ -61,9 +61,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj">
+    <ProjectReference Include="..\SJCNet.DesignPatterns.Shared.OLD\SJCNet.DesignPatterns.Shared.OLD.csproj">
       <Project>{cbe02eb0-7dc1-4ff5-bfe1-ef495ce0c655}</Project>
-      <Name>SJCNet.DesignPatterns.Shared</Name>
+      <Name>SJCNet.DesignPatterns.Shared.OLD</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using SJCNet.DesignPatterns.Shared.Contracts;
-using SJCNet.DesignPatterns.Shared.Utility;
+using SJCNet.DesignPatterns.Shared.Contracts.Old;
+using SJCNet.DesignPatterns.Shared.Utility.Old;
 
 namespace SJCNet.DesignPatterns.CompositionOverInheritance
 {
