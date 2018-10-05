@@ -66,10 +66,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.CompositionOverInheritance.OLD\SJCNet.DesignPatterns.CompositionOverInheritance.Old.csproj">
-      <Project>{59dc2580-5371-4447-b687-d2aa1de675e8}</Project>
-      <Name>SJCNet.DesignPatterns.CompositionOverInheritance.Old</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SJCNet.DesignPatterns.Factory\SJCNet.DesignPatterns.Factory.csproj">
       <Project>{5905da6d-16c1-4dde-9c78-552e59055e7c}</Project>
       <Name>SJCNet.DesignPatterns.Factory</Name>
