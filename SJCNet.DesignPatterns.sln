@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Outpu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Shared.OLD", "SJCNet.DesignPatterns.Shared.OLD\SJCNet.DesignPatterns.Shared.OLD.csproj", "{CBE02EB0-7DC1-4FF5-BFE1-EF495CE0C655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Observer", "SJCNet.DesignPatterns.Observer\SJCNet.DesignPatterns.Observer.csproj", "{FBA2123E-A1C9-4327-AA17-33F35481964A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Observer.OLD", "SJCNet.DesignPatterns.Observer.OLD\SJCNet.DesignPatterns.Observer.OLD.csproj", "{FBA2123E-A1C9-4327-AA17-33F35481964A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJCNet.DesignPatterns.Output", "SJCNet.DesignPatterns.Output\SJCNet.DesignPatterns.Output.csproj", "{782C37BA-FAE7-4BA2-B61E-F68961071ED8}"
 EndProject

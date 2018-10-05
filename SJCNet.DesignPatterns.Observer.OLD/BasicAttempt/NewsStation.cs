@@ -1,4 +1,4 @@
-﻿namespace SJCNet.DesignPatterns.Observer.BasicAttempt
+﻿namespace SJCNet.DesignPatterns.Observer.Old.BasicAttempt
 {
     public class NewsStation : NewsStationBase
     {

@@ -66,10 +66,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SJCNet.DesignPatterns.Observer\SJCNet.DesignPatterns.Observer.csproj">
-      <Project>{fba2123e-a1c9-4327-aa17-33f35481964a}</Project>
-      <Name>SJCNet.DesignPatterns.Observer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SJCNet.DesignPatterns.Shared.OLD\SJCNet.DesignPatterns.Shared.OLD.csproj">
       <Project>{cbe02eb0-7dc1-4ff5-bfe1-ef495ce0c655}</Project>
       <Name>SJCNet.DesignPatterns.Shared.OLD</Name>

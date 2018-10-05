@@ -7,8 +7,8 @@
     <ProjectGuid>{FBA2123E-A1C9-4327-AA17-33F35481964A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SJCNet.DesignPatterns.Observer</RootNamespace>
-    <AssemblyName>SJCNet.DesignPatterns.Observer</AssemblyName>
+    <RootNamespace>SJCNet.DesignPatterns.Observer.OLD</RootNamespace>
+    <AssemblyName>SJCNet.DesignPatterns.Observer.OLD</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -1,4 +1,4 @@
-﻿namespace SJCNet.DesignPatterns.Observer
+﻿namespace SJCNet.DesignPatterns.Observer.Old
 {
     public interface INewsStationBase
     {

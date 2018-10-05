@@ -1,7 +1,7 @@
 ﻿using SJCNet.DesignPatterns.Shared.Contracts.Old;
 using static System.Console;
 
-namespace SJCNet.DesignPatterns.Observer
+namespace SJCNet.DesignPatterns.Observer.Old
 {
     public class Example : IExample
     {

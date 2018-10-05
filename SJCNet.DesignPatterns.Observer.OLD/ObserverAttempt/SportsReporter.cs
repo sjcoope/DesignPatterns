@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Console;
 
-namespace SJCNet.DesignPatterns.Observer.ObserverAttempt
+namespace SJCNet.DesignPatterns.Observer.Old.ObserverAttempt
 {
     public class SportsReporter : IObserver, IReporter
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SJCNet.DesignPatterns.Observer.ObserverAttempt
+namespace SJCNet.DesignPatterns.Observer.Old.ObserverAttempt
 {
     public class NewsStation : NewsStationBase, ISubject
     {

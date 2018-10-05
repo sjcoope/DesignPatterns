@@ -1,14 +1,14 @@
 ﻿using static System.Console;
 
-namespace SJCNet.DesignPatterns.Observer.BasicAttempt
+namespace SJCNet.DesignPatterns.Observer.Old.BasicAttempt
 {
-    public class SportsReporter : IReporter
+    public class FinanceReporter : IReporter
     {
         public void Report(string headline)
         {
             if (!string.IsNullOrEmpty(headline))
             {
-                WriteLine($"New Sports Headline: {headline}");
+                WriteLine($"New Finance Headline: {headline}");
             }
         }
     }

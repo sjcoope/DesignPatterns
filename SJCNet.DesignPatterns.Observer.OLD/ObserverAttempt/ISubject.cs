@@ -1,4 +1,4 @@
-﻿namespace SJCNet.DesignPatterns.Observer.ObserverAttempt
+﻿namespace SJCNet.DesignPatterns.Observer.Old.ObserverAttempt
 {
     public interface ISubject
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Timers;
 
-namespace SJCNet.DesignPatterns.Observer
+namespace SJCNet.DesignPatterns.Observer.Old
 {
     public abstract class NewsStationBase : INewsStationBase
     {
