@@ -1,7 +1,7 @@
-﻿using SJCNet.DesignPatterns.CompositionOverInheritance.Composition.Behaviours;
+﻿using SJCNet.DesignPatterns.CompositionOverInheritance.Old.Composition.Behaviours;
 using SJCNet.DesignPatterns.Shared.Utility.Old;
 
-namespace SJCNet.DesignPatterns.CompositionOverInheritance.Composition
+namespace SJCNet.DesignPatterns.CompositionOverInheritance.Old.Composition
 {
     public class LabradorDog : Dog
     {

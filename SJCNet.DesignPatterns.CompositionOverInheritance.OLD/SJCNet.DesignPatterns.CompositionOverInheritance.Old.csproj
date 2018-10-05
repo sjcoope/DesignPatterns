@@ -7,8 +7,8 @@
     <ProjectGuid>{59DC2580-5371-4447-B687-D2AA1DE675E8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SJCNet.DesignPatterns.CompositionOverInheritance</RootNamespace>
-    <AssemblyName>SJCNet.DesignPatterns.CompositionOverInheritance</AssemblyName>
+    <RootNamespace>SJCNet.DesignPatterns.CompositionOverInheritance.Old</RootNamespace>
+    <AssemblyName>SJCNet.DesignPatterns.CompositionOverInheritance.Old</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

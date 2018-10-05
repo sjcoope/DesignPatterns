@@ -1,6 +1,6 @@
 ﻿using SJCNet.DesignPatterns.Shared.Utility.Old;
 
-namespace SJCNet.DesignPatterns.CompositionOverInheritance.Inheritance
+namespace SJCNet.DesignPatterns.CompositionOverInheritance.Old.Inheritance
 {
     public class ElectronicDog : Dog
     {

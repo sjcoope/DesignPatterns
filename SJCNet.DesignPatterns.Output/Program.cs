@@ -18,8 +18,8 @@ namespace SJCNet.DesignPatterns.Output
             //observerPattern.Execute();
 
             // Example: Factory Pattern
-            var factoryPattern = new Factory.Example();
-            factoryPattern.Execute();
+            //var factoryPattern = new Factory.Example();
+            //factoryPattern.Execute();
 
             Logger.WriteEnd("Ended");
             ReadLine();

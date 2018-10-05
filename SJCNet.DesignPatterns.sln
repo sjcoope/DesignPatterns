@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Output.OLD", "SJCNet.DesignPatterns.Output.OLD\SJCNet.DesignPatterns.Output.OLD.csproj", "{BA685722-2A18-4C30-9C26-BA79E0E2748F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.CompositionOverInheritance", "SJCNet.DesignPatterns.CompositionOverInheritance\SJCNet.DesignPatterns.CompositionOverInheritance.csproj", "{59DC2580-5371-4447-B687-D2AA1DE675E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.CompositionOverInheritance.Old", "SJCNet.DesignPatterns.CompositionOverInheritance.OLD\SJCNet.DesignPatterns.CompositionOverInheritance.Old.csproj", "{59DC2580-5371-4447-B687-D2AA1DE675E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Shared.OLD", "SJCNet.DesignPatterns.Shared.OLD\SJCNet.DesignPatterns.Shared.OLD.csproj", "{CBE02EB0-7DC1-4FF5-BFE1-EF495CE0C655}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Facto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJCNet.DesignPatterns.Output", "SJCNet.DesignPatterns.Output\SJCNet.DesignPatterns.Output.csproj", "{782C37BA-FAE7-4BA2-B61E-F68961071ED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Shared", "SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj", "{C029A635-1022-49A8-ADC8-14CA85DC4E83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJCNet.DesignPatterns.Shared", "SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj", "{C029A635-1022-49A8-ADC8-14CA85DC4E83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using SJCNet.DesignPatterns.Shared.Utility.Old;
 
-namespace SJCNet.DesignPatterns.CompositionOverInheritance.Composition.Behaviours
+namespace SJCNet.DesignPatterns.CompositionOverInheritance.Old.Composition.Behaviours
 {
     public class MuteBehaviour : IBarkBehaviour
     {

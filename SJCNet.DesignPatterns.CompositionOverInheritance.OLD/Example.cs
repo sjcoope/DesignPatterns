@@ -2,7 +2,7 @@
 using SJCNet.DesignPatterns.Shared.Contracts.Old;
 using SJCNet.DesignPatterns.Shared.Utility.Old;
 
-namespace SJCNet.DesignPatterns.CompositionOverInheritance
+namespace SJCNet.DesignPatterns.CompositionOverInheritance.Old
 {
     public class Example : IExample
     {
