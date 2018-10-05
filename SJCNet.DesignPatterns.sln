@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Obser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Factory", "SJCNet.DesignPatterns.Factory\SJCNet.DesignPatterns.Factory.csproj", "{5905DA6D-16C1-4DDE-9C78-552E59055E7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Output", "SJCNet.DesignPatterns.Output\SJCNet.DesignPatterns.Output.csproj", "{782C37BA-FAE7-4BA2-B61E-F68961071ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SJCNet.DesignPatterns.Output", "SJCNet.DesignPatterns.Output\SJCNet.DesignPatterns.Output.csproj", "{782C37BA-FAE7-4BA2-B61E-F68961071ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJCNet.DesignPatterns.Shared", "SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj", "{C029A635-1022-49A8-ADC8-14CA85DC4E83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{782C37BA-FAE7-4BA2-B61E-F68961071ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{782C37BA-FAE7-4BA2-B61E-F68961071ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{782C37BA-FAE7-4BA2-B61E-F68961071ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C029A635-1022-49A8-ADC8-14CA85DC4E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C029A635-1022-49A8-ADC8-14CA85DC4E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C029A635-1022-49A8-ADC8-14CA85DC4E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C029A635-1022-49A8-ADC8-14CA85DC4E83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
