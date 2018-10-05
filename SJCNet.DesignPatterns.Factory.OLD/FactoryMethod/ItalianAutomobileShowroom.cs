@@ -1,6 +1,6 @@
-﻿using SJCNet.DesignPatterns.Factory.Shared;
+﻿using SJCNet.DesignPatterns.Factory.Old.Shared;
 
-namespace SJCNet.DesignPatterns.Factory.FactoryMethod
+namespace SJCNet.DesignPatterns.Factory.Old.FactoryMethod
 {
     public class ItalianAutomobileShowroom : AutomobileShowroom
     {

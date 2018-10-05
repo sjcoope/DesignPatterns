@@ -1,8 +1,8 @@
-﻿using SJCNet.DesignPatterns.Shared.Utility.Old;
-using SJCNet.DesignPatterns.Factory.Shared;
+﻿using SJCNet.DesignPatterns.Factory.Old.Shared;
+using SJCNet.DesignPatterns.Shared.Utility.Old;
 using SJCNet.DesignPatterns.Shared.Contracts.Old;
 
-namespace SJCNet.DesignPatterns.Factory
+namespace SJCNet.DesignPatterns.Factory.Old
 {
     public class Example : IExample
     {

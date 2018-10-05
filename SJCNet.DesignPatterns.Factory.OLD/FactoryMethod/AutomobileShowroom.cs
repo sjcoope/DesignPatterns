@@ -1,7 +1,7 @@
-﻿using SJCNet.DesignPatterns.Factory.Shared;
+﻿using SJCNet.DesignPatterns.Factory.Old.Shared;
 using SJCNet.DesignPatterns.Shared.Utility.Old;
 
-namespace SJCNet.DesignPatterns.Factory.FactoryMethod
+namespace SJCNet.DesignPatterns.Factory.Old.FactoryMethod
 {
     public abstract class AutomobileShowroom
     {

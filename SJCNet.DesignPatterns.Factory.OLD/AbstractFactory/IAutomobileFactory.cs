@@ -1,6 +1,6 @@
-﻿using SJCNet.DesignPatterns.Factory.Shared;
+﻿using SJCNet.DesignPatterns.Factory.Old.Shared;
 
-namespace SJCNet.DesignPatterns.Factory.AbstractFactory
+namespace SJCNet.DesignPatterns.Factory.Old.AbstractFactory
 {
     public interface IAutomobileFactory
     {

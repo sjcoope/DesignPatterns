@@ -1,11 +1,11 @@
-﻿using SJCNet.DesignPatterns.Factory.Shared;
+﻿using SJCNet.DesignPatterns.Factory.Old.Shared;
 using SJCNet.DesignPatterns.Shared.Utility.Old;
 
-namespace SJCNet.DesignPatterns.Factory.SimpleFactory
+namespace SJCNet.DesignPatterns.Factory.Old.FactoryMethod
 {
-    public class AutomobileFactory
+    public class UkAutomobileShowroom : AutomobileShowroom
     {
-        public ICar CreateCar(CarTypes type)
+        protected override ICar CreateCar(CarTypes type)
         {
             Car car;
 
@@ -30,12 +30,12 @@ namespace SJCNet.DesignPatterns.Factory.SimpleFactory
 
         private void PerformSafetyChecks(ICar car)
         {
-            Logger.Write($"Performing safety checks for {car.Name} in SimpleFactory.AutomobileFactory.");
+            Logger.Write($"Performing safety checks for {car.Name} in FactoryMethod.UkAutomobileShowroom.");
         }
 
         private void PerformCrashTests(ICar car)
         {
-            Logger.Write($"Performing crash tests for {car.Name} in SimpleFactory.AutomobileFactory.");
+            Logger.Write($"Performing crash tests for {car.Name} in FactoryMethod.UkAutomobileShowroom.");
         }
     }
 }

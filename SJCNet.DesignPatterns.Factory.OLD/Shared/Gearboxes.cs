@@ -1,4 +1,4 @@
-﻿namespace SJCNet.DesignPatterns.Factory.Shared
+﻿namespace SJCNet.DesignPatterns.Factory.Old.Shared
 {
     public enum Gearboxes
     {

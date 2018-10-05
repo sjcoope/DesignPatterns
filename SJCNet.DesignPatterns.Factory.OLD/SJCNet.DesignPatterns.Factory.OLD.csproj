@@ -7,8 +7,8 @@
     <ProjectGuid>{5905DA6D-16C1-4DDE-9C78-552E59055E7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SJCNet.DesignPatterns.Factory</RootNamespace>
-    <AssemblyName>SJCNet.DesignPatterns.Factory</AssemblyName>
+    <RootNamespace>SJCNet.DesignPatterns.Factory.Old</RootNamespace>
+    <AssemblyName>SJCNet.DesignPatterns.Factory.Old</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

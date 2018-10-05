@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SJCNet.DesignPatterns.Factory.Shared
+namespace SJCNet.DesignPatterns.Factory.Old.Shared
 {
     public class Motorbike : Automobile, IMotorbike
     {
