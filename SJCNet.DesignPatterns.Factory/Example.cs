@@ -1,6 +1,6 @@
-﻿using SJCNet.DesignPatterns.Shared.Contracts;
+﻿using SJCNet.DesignPatterns.Factory.Shared;
 using SJCNet.DesignPatterns.Shared.Utility;
-using SJCNet.DesignPatterns.Factory.Shared;
+using SJCNet.DesignPatterns.Shared.Contracts;
 
 namespace SJCNet.DesignPatterns.Factory
 {

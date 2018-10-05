@@ -1,5 +1,5 @@
-﻿using SJCNet.DesignPatterns.Shared.Utility;
-using static System.Console;
+﻿using static System.Console;
+using SJCNet.DesignPatterns.Shared.Utility;
 
 namespace SJCNet.DesignPatterns.Output
 {
@@ -14,12 +14,12 @@ namespace SJCNet.DesignPatterns.Output
             //compositionOverInheritanceExample.Execute();
 
             // Example: Observer Pattern
-            //var observerPattern = new Observer.Example();
-            //observerPattern.Execute();
+            var observerPattern = new Observer.Example();
+            observerPattern.Execute();
 
             // Example: Factory Pattern
-            var factoryPattern = new Factory.Example();
-            factoryPattern.Execute();
+            //var factoryPattern = new Factory.Example();
+            //factoryPattern.Execute();
 
             Logger.WriteEnd("Ended");
             ReadLine();
