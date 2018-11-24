@@ -10,6 +10,7 @@
     <ProjectReference Include="..\SJCNet.DesignPatterns.Factory\SJCNet.DesignPatterns.Factory.csproj" />
     <ProjectReference Include="..\SJCNet.DesignPatterns.Observer\SJCNet.DesignPatterns.Observer.csproj" />
     <ProjectReference Include="..\SJCNet.DesignPatterns.Shared\SJCNet.DesignPatterns.Shared.csproj" />
+    <ProjectReference Include="..\SJCNet.DesignPatterns.Singleton\SJCNet.DesignPatterns.Singleton.csproj" />
   </ItemGroup>
 
 </Project>
